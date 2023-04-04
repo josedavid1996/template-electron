@@ -1,0 +1,10 @@
+@import './assets/fonts/Saira/index.css';
+@import 'react-toastify/dist/ReactToastify.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fondo {
+  background-image: linear-gradient(rgb(255, 87, 51) 30%, rgb(100, 0, 57) 100%);
+}

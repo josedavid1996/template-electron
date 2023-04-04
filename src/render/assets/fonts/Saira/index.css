@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Thin.eot');
+  src: url('./Saira-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Thin.woff2') format('woff2'),
+    url('./Saira-Thin.woff') format('woff'),
+    url('./Saira-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-ThinItalic.eot');
+  src: url('./Saira-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-ThinItalic.woff2') format('woff2'),
+    url('./Saira-ThinItalic.woff') format('woff'),
+    url('./Saira-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-ExtraLight.eot');
+  src: url('./Saira-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-ExtraLight.woff2') format('woff2'),
+    url('./Saira-ExtraLight.woff') format('woff'),
+    url('./Saira-ExtraLight.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-ExtraLightItalic.eot');
+  src: url('./Saira-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-ExtraLightItalic.woff2') format('woff2'),
+    url('./Saira-ExtraLightItalic.woff') format('woff'),
+    url('./Saira-ExtraLightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Light.eot');
+  src: url('./Saira-Light.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Light.woff2') format('woff2'),
+    url('./Saira-Light.woff') format('woff'),
+    url('./Saira-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-LightItalic.eot');
+  src: url('./Saira-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-LightItalic.woff2') format('woff2'),
+    url('./Saira-LightItalic.woff') format('woff'),
+    url('./Saira-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Regular.eot');
+  src: url('./Saira-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Regular.woff2') format('woff2'),
+    url('./Saira-Regular.woff') format('woff'),
+    url('./Saira-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Italic.eot');
+  src: url('./Saira-Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Italic.woff2') format('woff2'),
+    url('./Saira-Italic.woff') format('woff'),
+    url('./Saira-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Medium.eot');
+  src: url('./Saira-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Medium.woff2') format('woff2'),
+    url('./Saira-Medium.woff') format('woff'),
+    url('./Saira-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-MediumItalic.eot');
+  src: url('./Saira-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-MediumItalic.woff2') format('woff2'),
+    url('./Saira-MediumItalic.woff') format('woff'),
+    url('./Saira-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-SemiBold.eot');
+  src: url('./Saira-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-SemiBold.woff2') format('woff2'),
+    url('./Saira-SemiBold.woff') format('woff'),
+    url('./Saira-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-SemiBoldItalic.eot');
+  src: url('./Saira-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-SemiBoldItalic.woff2') format('woff2'),
+    url('./Saira-SemiBoldItalic.woff') format('woff'),
+    url('./Saira-SemiBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Bold.eot');
+  src: url('./Saira-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Bold.woff2') format('woff2'),
+    url('./Saira-Bold.woff') format('woff'),
+    url('./Saira-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-BoldItalic.eot');
+  src: url('./Saira-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-BoldItalic.woff2') format('woff2'),
+    url('./Saira-BoldItalic.woff') format('woff'),
+    url('./Saira-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-ExtraBold.eot');
+  src: url('./Saira-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-ExtraBold.woff2') format('woff2'),
+    url('./Saira-ExtraBold.woff') format('woff'),
+    url('./Saira-ExtraBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-ExtraBoldItalic.eot');
+  src: url('./Saira-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-ExtraBoldItalic.woff2') format('woff2'),
+    url('./Saira-ExtraBoldItalic.woff') format('woff'),
+    url('./Saira-ExtraBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Black.eot');
+  src: url('./Saira-Black.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-Black.woff2') format('woff2'),
+    url('./Saira-Black.woff') format('woff'),
+    url('./Saira-Black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-BlackItalic.eot');
+  src: url('./Saira-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('./Saira-BlackItalic.woff2') format('woff2'),
+    url('./Saira-BlackItalic.woff') format('woff'),
+    url('./Saira-BlackItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}

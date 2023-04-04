@@ -1,0 +1,21 @@
+mutation RefreshTokenStore($uuid: String!) {
+  refreshTokenStore(uuid: $uuid) {
+    data {
+      id
+      name
+      address
+      status
+      username
+      sessionStatus
+      rol
+      createdAt
+      updatedAt
+      token
+      machineUUID
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

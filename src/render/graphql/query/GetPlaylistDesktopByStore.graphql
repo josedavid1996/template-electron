@@ -1,0 +1,68 @@
+query GetPlaylistDesktopByStore {
+  getPlaylistDesktopByStore {
+    id
+    name
+    address
+    status
+    createdAt
+    updatedAt
+    client {
+      id
+      tradename
+      website
+      businessName
+      address
+      email
+      ruc
+      contact
+      phone
+      periodStart
+      periodEnd
+      status
+      avatarAwsId
+      createdAt
+      updatedAt
+    }
+    playlist {
+      id
+      title
+      date
+      timeStart
+      timeEnd
+      createdAt
+      updatedAt
+      listContent {
+        id
+        title
+        extension
+        artist
+        duration
+        awsId
+        timeStart
+        timeEnd
+        genre
+        type
+        rating {
+          id
+          rate
+          type
+        }
+      }
+      spotWithBroadcast {
+        id
+        extension
+        artist
+        duration
+        awsId
+        genre
+        type
+        broadcastTime
+        interval
+        startPosition
+        timeEnd
+        timeStart
+        title
+      }
+    }
+  }
+}

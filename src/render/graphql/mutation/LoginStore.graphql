@@ -1,0 +1,21 @@
+mutation LoginStore($input: LoginStoreInput!) {
+  loginStore(input: $input) {
+    data {
+      id
+      name
+      address
+      status
+      username
+      sessionStatus
+      rol
+      createdAt
+      updatedAt
+      token
+      machineUUID
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

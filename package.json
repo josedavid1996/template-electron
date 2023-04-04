@@ -1,0 +1,46 @@
+{
+  "name": "ideasbox",
+  "version": "1.2.8",
+  "license": "MIT",
+  "main": "dist/main/index.js",
+  "description": "My application description",
+  "author": "Cristian Gonzalez <degonzalez996@gmail.com>",
+  "scripts": {
+    "dev": "rimraf dist && vite",
+    "build": "rimraf dist && vite build",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "gen:graphql": "graphql-codegen --config codegen.ts"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.14.0",
+    "@graphql-codegen/client-preset": "1.1.5",
+    "@graphql-codegen/typescript": "2.8.2",
+    "@graphql-codegen/typescript-graphql-request": "4.5.8",
+    "@graphql-codegen/typescript-operations": "2.5.7",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@types/uuid": "8.3.4",
+    "@vitejs/plugin-react": "2.2.0",
+    "autoprefixer": "10.4.13",
+    "electron": "21.3.0",
+    "electron-builder": "23.6.0",
+    "postcss": "8.4.19",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.9.3",
+    "vite": "3.2.4",
+    "vite-plugin-doubleshot": "0.0.6",
+    "vite-plugin-svgr": "2.2.2"
+  },
+  "dependencies": {
+    "graphql": "16.6.0",
+    "graphql-request": "5.0.0",
+    "lottie-react": "2.3.1",
+    "moment": "2.29.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-simple-keyboard": "^3.5.51",
+    "react-toastify": "9.1.1"
+  }
+}

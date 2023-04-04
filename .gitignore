@@ -1,0 +1,6 @@
+dist
+.env
+node_modules
+**.env.ts
+src/songs
+**.sqlite3
