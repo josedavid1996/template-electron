@@ -1,5 +1,5 @@
 import { Client, Store } from '@render/generated/graphql'
-import { createStore } from '@render/utils/createStore'
+// import { createStore } from '@render/utils/createStore'
 
 export interface AuthStore {
   isAuth: boolean
@@ -15,24 +15,24 @@ const initialState = {
   isLoading: true
 }
 
-export const authStore = createStore<AuthStore>(initialState)
+// export const authStore = createStore<AuthStore>(initialState)
 
-const { setState: set, clear } = authStore
+// const { setState: set, clear } = authStore
 
-export const loginAction = (store: Store) => {
-  set((prev) => ({ ...prev, store, isAuth: true }))
-}
+// export const loginAction = (store: Store) => {
+//   set((prev) => ({ ...prev, store, isAuth: true }))
+// }
 
-export const setClient = (client: Client) => {
-  set((prev) => ({ ...prev, client }))
-}
+// export const setClient = (client: Client) => {
+//   set((prev) => ({ ...prev, client }))
+// }
 
-export const setAppLoading = (isLoading: boolean) => {
-  set((prev) => ({ ...prev, isLoading }))
-}
+// export const setAppLoading = (isLoading: boolean) => {
+//   set((prev) => ({ ...prev, isLoading }))
+// }
 
 export const logoutAction = () => {
-  clear()
+  // clear()
   localStorage.removeItem('token')
   localStorage.removeItem('@Store')
   localStorage.removeItem('@Client')

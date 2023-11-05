@@ -4,8 +4,8 @@ import { toast } from 'react-toastify'
 import { gqlFetch } from '@render/api'
 import useForm from '@render/hooks/useForm'
 import { isEmpty } from '@render/utils/isEmpty'
-import { loginAction } from '@render/store/auth'
-import { musicStore } from '@render/store/music'
+// import { loginAction } from '@render/store/auth'
+// import { musicStore } from '@render/store/music'
 
 const LoginPage = () => {
   const [isLoading, setIsLoading] = useState(false)
@@ -14,7 +14,7 @@ const LoginPage = () => {
     initialValues: {
       username: '',
       password: '',
-      uuid: window.api.getUniqueId()
+      uuid: '1'
     }
   })
 
@@ -37,8 +37,8 @@ const LoginPage = () => {
     localStorage.setItem('token', store.token!)
     localStorage.setItem('@Store', JSON.stringify(store))
 
-    loginAction(store)
-    musicStore.init()
+    // loginAction(store)
+    // musicStore.init()
   }
 
   return (
